@@ -1,0 +1,30 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Variables */
+
+:root {
+  --color-primary: #c4f82a;
+  --color-grey-9: #141414;
+  --color-grey-8: #1f1f1f;
+  --color-grey-7: #333333;
+  --color-white: #fff;
+  --font-family: "Inter", serif;
+}
+
+/* Global */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
